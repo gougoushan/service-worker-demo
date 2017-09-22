@@ -1,4 +1,4 @@
-# 简单的了解一下 PWA 和 Service Worker
+# 用人话来讲解一下Service Worker 和 PWA
 用人话来讲解一下Service Worker 和 PWA
 标题上为啥要把PWA放在Service Worker后面？因为要理解和开发PWA，Service Worker是决定性因素，为啥这么说，往下看便知晓。
 
