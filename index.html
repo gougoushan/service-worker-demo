@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Service Worker</title>
+	<script type="text/javascript">
+		//这里是要检查用户的浏览器是否支持Service Worker
+		//从这里就可以看出Service Worker就是navigator的一个属性对象
+		if ('serviceWorker' in navigator) {
+			//添加一个网页载入事件的监听器
+			window.addEventListener('load', function () {
+			//当网页载入完成后，把service-worker.js文件注册到网页中
+		        navigator.serviceWorker.register('service-worker.js')
+		    });
+		}
+	</script>
+</head>
+<body style="text-align:center;">
+	<h2>Service Worker</h2>
+	<img src="img.jpg" />
+</body>
+</html>
